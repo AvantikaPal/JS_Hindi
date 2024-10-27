@@ -37,7 +37,7 @@ const myFunction = function(){
 }
 
 // console.log(typeof outsideTemp); 
-console.log(typeof scoreValue);
+// console.log(typeof scoreValue);
 
 /* Type of val-----------Result
 undefined ---- "undefined"
@@ -53,4 +53,32 @@ Object(natibe or host and does implement)
 **non primitive datatypes result is always object 
 
 */
+
+// +++++++++++++++++++++++++++++++++++++++++++
+
+// stack--> (Primitive)--copy of value, Heap-->(Non-primitive)---refernce of value
+
+let myYoutubename = "avantikapal"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+// console.log(myYoutubename);
+// console.log(anothername);
+
+let userOne= {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "avantika@gmail.com"
+
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
 
